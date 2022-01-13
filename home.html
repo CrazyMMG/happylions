@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy Lions NFT | 7,777 Lions That Are Colorful, Bright and Fun!</title>
+    <link rel="icon" href="/logo.png" type="image/png">
+    <meta name="viewport" content="width=640px, intial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.0/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.0/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.0/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <meta name="theme-color" content="#D49000">
+
+    <meta name="msapplication-navbutton-color" content="#D49000">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="#D49000">
+    <style>
+        html {
+            max-width: 640px !important;
+        }
+
+        @font-face {
+            font-family: 'MilkyNice';
+            src: url('fonts/MilkyNice-Clean.ttf'); 
+            src:
+                local('Milky Nice'),
+                local('MilkyNice'),
+                url('fonts/MilkyNice-Clean.otf'),
+                format('opentype');
+        }
+
+        @keyframes cloud1{
+            0%{
+                left: -500px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud1 {
+            animation: cloud1 30s linear infinite;
+            animation-delay: -5.5s;
+        }
+
+        @keyframes cloud2{
+            0%{
+                left: -250px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud2 {
+            animation: cloud2 30s linear infinite;
+            animation-delay: -18s;
+        }
+
+        @keyframes cloud3{
+            0%{
+                left: -200px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud3 {
+            animation: cloud3 30s linear infinite;
+            animation-delay: -12.5s;
+        }
+
+        @keyframes cloud4{
+            0%{
+                left: -350px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud4 {
+            animation: cloud4 30s linear infinite;
+            animation-delay: -26s;
+        }
+
+        @keyframes cloud5{
+            0%{
+                left: -50px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud5 {
+            animation: cloud5 30s linear infinite;
+            animation-delay: -5.5s;
+        }
+
+        @keyframes cloud6{
+            0%{
+                left: -80px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud6 {
+            animation: cloud6 30s linear infinite;
+            animation-delay: -24s;
+        }
+
+        @keyframes cloud7{
+            0%{
+                left: -250px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud7 {
+            animation: cloud7 30s linear infinite;
+            animation-delay: -8.5s;
+        }
+
+        @keyframes cloud8{
+            0%{
+                left: -200px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud8 {
+            animation: cloud8 30s linear infinite;
+            animation-delay: -22s;
+        }
+
+        @keyframes cloud9{
+            0%{
+                left: -100px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud9 {
+            animation: cloud9 30s linear infinite;
+            animation-delay: -4.5s;
+        }
+
+        @keyframes cloud10{
+            0%{
+                left: -500px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud10 {
+            animation: cloud10 30s linear infinite;
+            animation-delay: -26s;
+        }
+
+
+        @keyframes cloud11{
+            0%{
+                left: -500px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud11 {
+            animation: cloud11 30s linear infinite;
+            animation-delay: -5.5s;
+        }
+
+        @keyframes cloud12{
+            0%{
+                left: -250px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud12 {
+            animation: cloud12 30s linear infinite;
+            animation-delay: -18s;
+        }
+
+        @keyframes cloud13{
+            0%{
+                left: -200px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud13 {
+            animation: cloud13 30s linear infinite;
+            animation-delay: -12.5s;
+        }
+
+        @keyframes cloud14{
+            0%{
+                left: -350px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud14 {
+            animation: cloud14 30s linear infinite;
+            animation-delay: -26s;
+        }
+
+        @keyframes cloud15{
+            0%{
+                left: -50px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud15 {
+            animation: cloud15 30s linear infinite;
+            animation-delay: -5.5s;
+        }
+
+        @keyframes cloud16{
+            0%{
+                left: -80px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud16 {
+            animation: cloud16 30s linear infinite;
+            animation-delay: -24s;
+        }
+
+        @keyframes cloud17{
+            0%{
+                left: -250px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud17 {
+            animation: cloud17 30s linear infinite;
+            animation-delay: -8.5s;
+        }
+
+        @keyframes cloud18{
+            0%{
+                left: -200px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud18 {
+            animation: cloud18 30s linear infinite;
+            animation-delay: -22s;
+        }
+
+        @keyframes cloud19{
+            0%{
+                left: -100px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud19 {
+            animation: cloud19 30s linear infinite;
+            animation-delay: -4.5s;
+        }
+
+        @keyframes cloud20{
+            0%{
+                left: -500px;
+            }
+            100%{
+                left: 100vw;
+            }
+        }
+
+        .cloud20 {
+            animation: cloud20 30s linear infinite;
+            animation-delay: -26s;
+        }
+
+        .nav-link  {
+            transition: color 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .nav-link:hover {
+            color: #B5D4E0 !important;
+        }
+
+        .nav-link-socials  {
+            transition: color 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .nav-link-socials:hover {
+            color: #F8B9E3 !important;
+        }
+
+        .button-grad {
+            width: 350px;
+            height: 55px;
+            border-bottom: double 10px transparent;
+            border-radius: 15px;
+            background-image: linear-gradient(to right, #FFAED3, #BEA1FF), 
+                              linear-gradient(to right, #D179AE, #7B6CC4);
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            transition: all 0.3s ease-in-out;
+            transform: translateX(-50%);
+            margin-bottom: 0px !important;
+        }
+
+        .button-grad:hover {
+            border-bottom: double 0px transparent;
+            height: 45px;
+            transform: translate(-50%, 14px) !important; 
+        }
+
+        .button-footer-grad {
+            width: 100%;
+            height: 55px;
+            border-bottom: double 7px transparent;
+            border-radius: 15px;
+            background-image: linear-gradient(to right, #FFAED3, #BEA1FF), 
+                              linear-gradient(to right, #D179AE, #7B6CC4);
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            transition: all 0.3s ease-in-out;
+            margin-bottom: 0px !important;
+            cursor: pointer;
+        }
+
+        .button-footer-grad:hover {
+            border-bottom: double 0px transparent;
+            height: 48px;
+            transform: translateY(11px) !important; 
+        }
+
+        .roadmap-section h6 {
+            font-size: 20px;
+        }
+
+        @media (max-width: 1210px) {
+            .navbar {
+                display: none !important;
+            }
+
+            .top-nav {
+                width: 600px !important;
+                margin-top: 50px !important;
+            }
+
+            .counter1 {
+                width: 100% !important;
+                margin-top: 0px !important;
+            }
+
+            .counter2 {
+                width: 100% !important;
+                margin-top: 50px ;
+            }
+
+            .counterholder {
+                width: 600px !important;
+                margin-top: 60px !important;
+            }
+
+            #about {
+                margin-top: 350px !important;
+                width: 600px !important;
+            }
+
+            .button-grad {
+                top: 570px !important;
+            }
+
+            .slideshow {
+                width: 50% !important;
+                margin-left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .about-area {
+                width: 100% !important;
+                margin-left: 0px !important;
+                text-align: center !important;
+                margin-top: 30px !important;
+                height: 420px !important;
+            }
+
+            .roadmap-section{
+                display: none !important;
+            }
+
+            .team-container {
+                width: 600px !important;
+            }
+
+            .team-item {
+                width: 40% !important;
+                margin-right: 5% !important;
+                margin-left: 5% !important;
+            }
+
+            .hills-bg {
+                height: 700px !important;
+            }
+
+            .hill-1 {
+                top: 150px !important;
+            }
+
+            .hill-2 {
+                top: 200px !important;
+            }
+
+            .hill-3 {
+                top: 250px !important;
+            }
+
+            .cm-section {
+                width: 600px !important;
+            }
+
+            .join-community {
+                display: none !important;
+            }
+
+            .cm-buttons {
+                transform: none !important;
+                left: 380px !important;
+            }
+
+            .rm-2 {
+                display: block !important;
+            }
+        }
+    </style>
+</head>
+<body style="overflow-x: hidden; font-family: 'MilkyNice', sans-serif; background-repeat: no-repeat;">
+    <div class="cont" style="height: fit-content; background: linear-gradient(to bottom, #F8EA9C, #8FE3DE, #FBADD6, #B3A6EC); width: 100%; position: absolute; top: 0px; left: 0px; overflow: hidden;">
+        <div class="background-clouds" style="position: absolute; top: 0px; left: 0px; width: 100%; height: fit-content; overflow: hidden;">
+            <img class="cloud1" src="bigcloud.svg" style="width: 500px; position: absolute; top: -20px; left: -500px;">
+            <img class="cloud2" src="bigcloud.svg" style="width: 250px; position: absolute; top: -10px; left: -250px;">
+
+            <img class="cloud3" src="medcloud.svg" style="width: 200px; position: absolute; top: 200px; left: -500px;">
+            <img class="cloud4" src="bigcloud.svg" style="width: 350px; position: absolute; top: 150px; left: -250px;">
+
+            <img class="cloud5" src="smallcloud.svg" style="width: 50px; position: absolute; top: 400px; left: -50px;">
+            <img class="cloud6" src="smallcloud.svg" style="width: 80px; position: absolute; top: 360px; left: -70px;">
+
+            <img class="cloud7" src="bigcloud.svg" style="width: 250px; position: absolute; top: 550px; left: -250px;">
+            <img class="cloud8" src="medcloud.svg" style="width: 200px; position: absolute; top: 620px; left: -200px;">
+
+            <img class="cloud9" src="smallcloud.svg" style="width: 100px; position: absolute; top: 950px; left: -100px;">
+            <img class="cloud10" src="bigcloud.svg" style="width: 500px; position: absolute; top: 830px; left: -500px;">
+
+            <img class="cloud11" src="bigcloud.svg" style="width: 500px; position: absolute; top: 1180px; left: -500px;">
+            <img class="cloud12" src="bigcloud.svg" style="width: 250px; position: absolute; top: 1190px; left: -250px;">
+
+            <img class="cloud13" src="medcloud.svg" style="width: 200px; position: absolute; top: 1400px; left: -500px;">
+            <img class="cloud14" src="bigcloud.svg" style="width: 350px; position: absolute; top: 1350px; left: -250px;">
+
+            <img class="cloud15" src="smallcloud.svg" style="width: 50px; position: absolute; top: 1600px; left: -50px;">
+            <img class="cloud16" src="smallcloud.svg" style="width: 80px; position: absolute; top: 1560px; left: -70px;">
+
+            <img class="cloud17" src="bigcloud.svg" style="width: 250px; position: absolute; top: 1750px; left: -250px;">
+            <img class="cloud18" src="medcloud.svg" style="width: 200px; position: absolute; top: 1820px; left: -200px;">
+
+            <img class="cloud19" src="smallcloud.svg" style="width: 100px; position: absolute; top: 2050px; left: -100px;">
+            <img class="cloud20" src="bigcloud.svg" style="width: 500px; position: absolute; top: 2030px; left: -500px;">
+        </div>
+        <div class="top-nav" style="width: 1200px; height: 70px; margin-top: 100px; margin-left: 50%; transform: translateX(-50%); position: relative;">
+            <img src="logo.png" style="height: 170px; top: -45px; position: absolute;">
+            <div class="navbar" style="width: fit-content; position: absolute; height: 40px; left: 50%; top: 8px; transform: translateX(-50%)">
+                <a href="#" class="nav-link" style="float: left; font-size: 25px; color: white; margin-right: 30px; text-decoration: none; text-shadow: 0px 0px 10px gray;">Home</a>
+                <a href="#about" class="nav-link" style="float: left; font-size: 25px; color: white; margin-right: 30px; text-decoration: none; text-shadow: 0px 0px 10px gray;">About</a>
+                <a href="#roadmap" class="nav-link" style="float: left; font-size: 25px; color: white; margin-right: 30px; text-decoration: none; text-shadow: 0px 0px 10px gray;">Roadmap</a>
+                <a href="#team" class="nav-link" style="float: left; font-size: 25px; color: white; text-decoration: none; text-shadow: 0px 0px 10px gray;">Team</a>
+            </div>
+            <div style="width: 150px; height: 70px; position: absolute; top: 8px; right: 0px;">
+                <a href="https://discord.gg/happylions" target="_blank" class="nav-link-socials" style="float: left; font-size: 38px; color: #9090F4; margin-right: 40px; text-decoration: none;"><i class="fab fa-discord"></i></a>
+                <a href="https://twitter.com/the_happy_lions" target="_blank" class="nav-link-socials" style="float: left; font-size: 38px; color: #66D4ED; text-decoration: none;"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="counterholder" style="width: 1200px; height: 120px; margin-left: 50%; transform: translateX(-50%); position: relative; margin-top: 130px;">
+            <div class="counter1" style="width: 50%; height: fit-content; float: left;">
+                <p style="text-align: center; font-size: 30px; color: #3D3D3D; letter-spacing: 4px;">PRE-SALE</p>
+                <p id="presale-counter" style="text-align: center; font-size: 50px; color: #3D3D3D; margin-top: -10px; letter-spacing: 4px;">00:00:00:00</p>
+            </div>
+            <div class="counter2" style="width: 50%; height: fit-content; float: left;">
+                <p style="text-align: center; font-size: 30px; color: #3D3D3D; letter-spacing: 4px;">PUBLIC MINT</p>
+                <p id="public-counter" style="text-align: center; font-size: 50px; color: #3D3D3D; margin-top: -10px; letter-spacing: 4px;">00:00:00:00</p>
+            </div>
+        </div>
+
+        <div class="button-grad" style="margin-left: 50%; top: 520px; position: absolute; cursor: pointer;">    
+            <a target="_blank" href="https://opensea.io/thlc" target="_blank">
+                <p style="font-size: 36px; color: white; top: -4px; position: absolute; text-align: center; width: 100%; letter-spacing: 4px;">View Opensea</p>
+            </a>
+        </div>
+
+        <div class="grad-below" id="about" style="width: 1000px; margin-left: 50%; transform: translateX(-50%); position: relative; margin-top: 180px; padding-top: 60px; height: 410px;">
+            <div class="slideshow" style="width: 30%; height: 350px; float: left; position: relative;">
+                <img style="width: 350px; height: 350px; margin-left: -25px; margin-top: -25px;" src="box.svg">
+                <img class="slideshow-img1" src="1.png" style="width: 280px; height: 280px; transition: opacity 0.3s ease-in-out; position: absolute; top: 10px; left: 10px; border-radius: 15px; opacity: 1;">
+                <img class="slideshow-img2" src="2.png" style="width: 280px; height: 280px; transition: opacity 0.3s ease-in-out; position: absolute; top: 10px; left: 10px; border-radius: 15px; opacity: 0;">
+                <img class="slideshow-img3" src="3.png" style="width: 280px; height: 280px; transition: opacity 0.3s ease-in-out; position: absolute; top: 10px; left: 10px; border-radius: 15px; opacity: 0;">
+                <img class="slideshow-img4" src="4.png" style="width: 280px; height: 280px; transition: opacity 0.3s ease-in-out; position: absolute; top: 10px; left: 10px; border-radius: 15px; opacity: 0;">
+                <img class="slideshow-img5" src="5.png" style="width: 280px; height: 280px; transition: opacity 0.3s ease-in-out; position: absolute; top: 10px; left: 10px; border-radius: 15px; opacity: 0;">
+                <img class="slideshow-img6" src="6.png" style="width: 280px; height: 280px; transition: opacity 0.3s ease-in-out; position: absolute; top: 10px; left: 10px; border-radius: 15px; opacity: 0;">
+
+                <div style="width: 100%; height: 6px;">
+                    <div class="slideshow-toggle1" onclick="changeSlideShow(1)" style="width: 10%; float: left; cursor: pointer; margin-left: 5.7%; height: 6px; border-radius: 4px; background-color: #F0B5D4;"></div>
+                    <div class="slideshow-toggle2" onclick="changeSlideShow(2)" style="width: 10%; float: left; cursor: pointer; margin-left: 5.7%; height: 6px; border-radius: 4px; background-color: #ACBAF3;"></div>
+                    <div class="slideshow-toggle3" onclick="changeSlideShow(3)" style="width: 10%; float: left; cursor: pointer; margin-left: 5.7%; height: 6px; border-radius: 4px; background-color: #ACBAF3;"></div>
+                    <div class="slideshow-toggle4" onclick="changeSlideShow(4)" style="width: 10%; float: left; cursor: pointer; margin-left: 5.7%; height: 6px; border-radius: 4px; background-color: #ACBAF3;"></div>
+                    <div class="slideshow-toggle5" onclick="changeSlideShow(5)" style="width: 10%; float: left; cursor: pointer; margin-left: 5.7%; height: 6px; border-radius: 4px; background-color: #ACBAF3;"></div>
+                    <div class="slideshow-toggle6" onclick="changeSlideShow(6)" style="width: 10%; float: left; cursor: pointer; margin-left: 5.7%; height: 6px; border-radius: 4px; background-color: #ACBAF3;"></div>
+                </div>
+            </div>
+            <div class="about-area" style="width: 60%; height: 350px; float: left; margin-left: 10%;">
+                <p style="font-size: 30px; color: white; margin-top: -2px; text-shadow: 0px 0px 2px black; letter-spacing: 4px; text-shadow: 0px 0px 5px gray;">A COLLECTION OF 7,777 LIONS</p>
+
+                <p style="font-size: 25px; color: #3E3F3F; letter-spacing: 4px; margin-top: -25px;">that are colorful, bright and fun!</p>
+
+                <p style="font-size: 19px; color: #3E3F3F; letter-spacing: 2px; margin-top: 10px;">The Happy Lions Circle was created through the love of lions and doodle NFTs. There will be 7,777 of colorful, bright and fun lion art pieces that are exclusive to the Ethereum Blockchain.</p>
+            
+                <p style="font-size: 19px; color: #3E3F3F; letter-spacing: 2px; margin-top: 10px;">With that said, portions of our earnings will go to donations such as Four Paws Charity and African Wildlife Foundation. Oh, also lotteries and giveaways for the community!</p>
+            </div>
+        </div>
+
+        <h3 id="roadmap" style="font-size: 30px; color: white; text-shadow: 0px 0px 2px black; letter-spacing: 4px; text-align: center; margin-top: 50px; padding-top: 30px; text-shadow: 0px 0px 6px gray;">ROADMAP</h3>
+
+        <div class="roadmap-section" style="width: 1000px; height: fit-content; margin-left: 50%; transform: translateX(-50%); margin-top: 40px; position: relative;">
+            <img src="/roadmap.svg" style="width: 105%; margin-left: -2.5%;">
+            <p class="roadmap-section-label1" style="position: absolute; left: 21px; top: 50px; color: #3D3D3D;">20%</p>
+            <h6 class="roadmap-section-content1" style="position: absolute; left: 105px; top: 50px; color: white; letter-spacing: 2px;">Donation of $25,000 to Four Paws Charity</h6>
+            <p class="roadmap-section-label2" style="position: absolute; left: 21px; top: 182px; color: #3D3D3D;">40%</p>
+            <h6 class="roadmap-section-content2" style="position: absolute; left: 105px; top: 182px; color: white; letter-spacing: 2px;">$25,000 lottery prize split between 3 lucky TLHC NFT holders</h6>
+            <p class="roadmap-section-label3" style="position: absolute; left: 21px; top: 314px; color: #3D3D3D;">60%</p>
+            <h6 class="roadmap-section-content3" style="position: absolute; left: 105px; top: 314px; color: white; letter-spacing: 2px;">Donation of $25,000 to African Wildlife Foundation</h6>
+            <p class="roadmap-section-label4" style="position: absolute; left: 21px; top: 446px; color: #3D3D3D;">80%</p>
+            <h6 class="roadmap-section-content4" style="position: absolute; left: 105px; top: 446px; color: white; letter-spacing: 2px;">Another $25,000 lottery prize split between 3 lucky TLHC NFT holders</h6>
+            <p class="roadmap-section-label5" style="position: absolute; left: 15px; top: 578px; color: #3D3D3D;">100%</p>
+            <h6 class="roadmap-section-content5" style="position: absolute; left: 105px; top: 578px; color: white; font-size: 18.5px; letter-spacing: 2px; width: 860px;">a) 100 ETH added to The Happy Lions Circle Community Fund for the development of the community, entering the Metaverse and further collaborations.<br><br>b) All THLC holders will be entitled to the THLC Platinum Mint Pass which gives free access to THLC NFT drops and the first THLC comic book<br><br>c) 10 ETH plus 50 NFTs will be added on NFT20 to provide liquidity to THLC NFTs. The NFT20 platform acts as to tokenize your NFTs through i) trading your NFT at floor prices to recieve liquidity and exchange on Uniswap or ii) exchange a base NFT which is already included in the NFT pool with your own.</h6>
+        </div>
+
+        <div class="rm-2" style="width: 580px; display: none; height: 780px; margin-left: 50%; transform: translateX(-50%);">
+            <div style="width: 100%; height: 60px; box-shadow: 0px 0px 10px gray; background-image: linear-gradient(to right, #FFAED3, #BEA1FF), linear-gradient(to right, #D179AE, #7B6CC4); border-radius: 16px; margin-bottom: 30px;">
+                <p style="color: white; font-size: 20px; text-align: center; padding-top: 15px;">Donation of $25,000 to Four Paws Charity</p>
+            </div>
+            <div style="width: 100%; height: 88px; box-shadow: 0px 0px 10px gray; background-image: linear-gradient(to right, #FFAED3, #BEA1FF), linear-gradient(to right, #D179AE, #7B6CC4); border-radius: 16px; margin-bottom: 30px;">
+                <p style="color: white; font-size: 20px; text-align: center; padding-top: 15px;">$25,000 lottery prize split between 3 lucky TLHC NFT holders</p>
+            </div>
+            <div style="width: 100%; height: 60px; box-shadow: 0px 0px 10px gray; background-image: linear-gradient(to right, #FFAED3, #BEA1FF), linear-gradient(to right, #D179AE, #7B6CC4); border-radius: 16px; margin-bottom: 30px;">
+                <p style="color: white; font-size: 20px; text-align: center; padding-top: 15px;">Donation of $25,000 to African Wildlife Foundation</p>
+            </div>
+            <div style="width: 100%; height: 478px; box-shadow: 0px 0px 10px gray; background-image: linear-gradient(to right, #FFAED3, #BEA1FF), linear-gradient(to right, #D179AE, #7B6CC4); border-radius: 16px;">
+                <p style="color: white; font-size: 20px; text-align: center; padding-top: 15px; width: calc(100% - 40px); margin-left: 20px;">a) 100 ETH added to The Happy Lions Circle Community Fund for the development of the community, entering the Metaverse and further collaborations.<br><br>b) All THLC holders will be entitled to the THLC Platinum Mint Pass which gives free access to THLC NFT drops and the first THLC comic book<br><br>c) 10 ETH plus 50 NFTs will be added on NFT20 to provide liquidity to THLC NFTs. The NFT20 platform acts as to tokenize your NFTs through i) trading your NFT at floor prices to recieve liquidity and exchange on Uniswap or ii) exchange a base NFT which is already included in the NFT pool with your own.</p>
+            </div>
+        </div>
+
+        <h3 id="team" style="font-size: 30px; color: white; text-shadow: 0px 0px 2px black; letter-spacing: 4px; text-align: center; margin-top: 50px; padding-top: 30px; text-shadow: 0px 0px 6px gray;">MEET THE CUBS</h3>
+
+        <div class="hills-bg" style="width: 100%; height: 500px; margin-top: 30px; position: relative; overflow: hidden;">
+            <div class="hill-1" style="width: 75%; height: 900px; border-radius: 50%; position: absolute; background-color: #32CC9C; margin-left: 50%; transform: translateX(-50%);"></div>
+            <div class="hill-2" style="width: 100%; height: 1000px; border-radius: 50%; position: absolute; background-color: #43EAAD; top: 100px; left: 100%; transform: translateX(-50%);"></div>
+            <div class="hill-3" style="width: 117%; height: 1000px; border-radius: 50%; position: absolute; background-color: #83FEC0; top: 150px; left: 10%; transform: translateX(-50%);"></div>
+        
+            <div class="team-container" style="position: absolute; width: 1000px; height: fit-content; left: 50%; transform: translateX(-50%); top: 35px;">
+                <div class="team-item" style="width: 22%; float: left; margin-right: 4%; height: 330px;">
+                    <img src="3.png" style="width: 220px; height: 220px; border-radius: 50%; box-shadow: 0px 0px 12px gray;">
+                    <h3 style="text-align: center; color: white; text-shadow: 0px 0px 6px gray; font-size: 28px; letter-spacing: 4px; margin-top: 15px;">BARB</h3>
+                    <h3 style="text-align: center; color: black; font-size: 15px; letter-spacing: 2px; margin-top: 10px;">designer & artist</h3>
+                </div>
+                <div class="team-item" style="width: 22%; float: left; margin-right: 4%; height: 330px;">
+                    <img src="2.png" style="width: 220px; height: 220px; border-radius: 50%; box-shadow: 0px 0px 12px gray;">
+                    <h3 style="text-align: center; color: white; text-shadow: 0px 0px 6px gray; font-size: 28px; letter-spacing: 4px; margin-top: 15px;">LION KING</h3>
+                    <h3 style="text-align: center; color: black; font-size: 15px; letter-spacing: 2px; margin-top: 10px;">project lead</h3>
+                </div>
+                <div class="team-item" style="width: 22%; float: left; margin-right: 4%; height: 330px;">
+                    <img src="1.png" style="width: 220px; height: 220px; border-radius: 50%; box-shadow: 0px 0px 12px gray;">
+                    <h3 style="text-align: center; color: white; text-shadow: 0px 0px 6px gray; font-size: 28px; letter-spacing: 4px; margin-top: 15px;">MO</h3>
+                    <h3 style="text-align: center; color: black; font-size: 15px; letter-spacing: 2px; margin-top: 10px;">developer</h3>
+                </div>
+                <div class="team-item" style="width: 22%; float: left; height: 330px;">
+                    <img src="4.png" style="width: 220px; height: 220px; border-radius: 50%; box-shadow: 0px 0px 12px gray;">
+                    <h3 style="text-align: center; color: white; text-shadow: 0px 0px 6px gray; font-size: 28px; letter-spacing: 4px; margin-top: 15px;">ALB</h3>
+                    <h3 style="text-align: center; color: black; font-size: 15px; letter-spacing: 2px; margin-top: 10px;">developer</h3>
+                </div>
+            </div>
+        </div>
+        <div style="height: 200px; width: 100%; background: linear-gradient(to right, #F8EA9C, #8FE3DE, #FBADD6, #B3A6EC); position: relative;">
+            <div class="cm-section" style="width: 1200px; position: absolute; height: 130px; left: 50%; transform: translateX(-50%); top: 35px;">
+                <img src="/logo.png" style="height: 260px; margin-top: -65px;">
+                <div class="cm-buttons" style="height: 130px; width: 200px; position: absolute; left: 50%; transform: translateX(-50%); top: 0px;">
+                    <div class="button-footer-grad" style="position: absolute; top: 0px; font-size: 30px; color: white; text-align: center;"><a href="https://discord.gg/happylions" target="_blank" style="text-decoration: none; color: white;"><p style="margin-top: 2px;">Discord</p></a></div>
+                    <div class="button-footer-grad" style="position: absolute; top: 74px; font-size: 30px; color: white; text-align: center;"><a href="https://twitter.com/the_happy_lions" target="_blank" style="text-decoration: none; color: white;"><p style="margin-top: 2px;">Twitter</p></a></div>
+                </div>
+                <h3 class="join-community" style="font-size: 50px; width: 315px; height: 100%; position: absolute; right: 0px; top: 0px; color: white; letter-spacing: 3px; text-align: center; padding-top: 8px;">join the community!</h3>
+            </div>
+        </div>
+        <div style="height: 150px; width: 100%; background-color: #3D3D3D;">
+            <div style="width: fit-content; height: 50px; padding-top: 20px; margin-left: 50%; transform: translateX(-50%);">
+                <a href="#" style="width: fit-content; color: white; float: left; font-size: 16px; margin-right: 20px; text-decoration: none;">Home</a>
+                <a href="#about" style="width: fit-content; color: white; float: left; font-size: 16px; margin-right: 20px; text-decoration: none;">About</a>
+                <a href="#roadmap" style="width: fit-content; color: white; float: left; font-size: 16px; margin-right: 20px; text-decoration: none;">Roadmap</a>
+                <a href="#team" style="width: fit-content; color: white; float: left; font-size: 16px; text-decoration: none;">Team</a>
+            </div>
+            <div style="width: fit-content; height: 50px; padding-top: 10px; margin-left: 50%; transform: translateX(-50%);">
+                <a href="https://discord.gg/happylions" target="_blank" style="width: fit-content; color: white; float: left; font-size: 25px; margin-right: 20px; text-decoration: none;"><i class="fab fa-discord"></i></a>
+                <a href="https://twitter.com/the_happy_lions" target="_blank" style="width: fit-content; color: white; float: left; font-size: 25px; margin-right: 20px; text-decoration: none;"><i class="fab fa-twitter"></i></a>
+                <a href="https://opensea.io/thlc" target="_blank" style="width: fit-content; color: white; float: left; font-size: 25px; text-decoration: none;"><img src="/opensea.svg" style="width: 23px; padding-bottom: 4px;"></a>
+            </div>
+            <div style="width: 640px; height: 50px; margin-left: 50%; transform: translateX(-50%);">
+                <p style="width: 640px; color: #878787; padding-top: 10px; text-align: center; font-size: 14px; text-decoration: none;">The Happy Lions Club 2022. All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var curActiveSlide = 1;
+
+        function changeSlideShow(slide){
+            if (curActiveSlide == slide){
+                return
+            };
+            $(".slideshow-img"+curActiveSlide).css("opacity", "0")
+            $(".slideshow-toggle"+curActiveSlide).css("background-color", "#ACBAF3")
+            $(".slideshow-img"+slide).css("opacity", "1")
+            $(".slideshow-toggle"+slide).css("background-color", "#F0B5D4")
+            curActiveSlide = slide;
+        };
+
+        setInterval(function(){
+            $(".slideshow-img"+curActiveSlide).css("opacity", "0")
+            $(".slideshow-toggle"+curActiveSlide).css("background-color", "#ACBAF3")
+            if (curActiveSlide+1 == 7) {
+                curActiveSlide = 1
+            }
+            else {
+                curActiveSlide = curActiveSlide+1
+            };
+            $(".slideshow-img"+curActiveSlide).css("opacity", "1")
+            $(".slideshow-toggle"+curActiveSlide).css("background-color", "#F0B5D4")
+        }, 4000);
+    </script>
+</body>
+</html>
